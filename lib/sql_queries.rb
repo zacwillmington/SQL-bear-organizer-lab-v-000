@@ -24,8 +24,6 @@ def selects_most_prominent_color_and_returns_with_count
   GROUP BY color
   ORDER BY color_occurrence DESC
   LIMIT 1;"
- #SELECT breed, COUNT(breed) FROM cats GROUP BY breed
-
 end
 
 def counts_number_of_bears_with_goofy_temperaments
