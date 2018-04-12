@@ -20,7 +20,7 @@ end
 
 def selects_most_prominent_color_and_returns_with_count
   "SELECT color, COUNT(color) AS color_occurrence
-  FROM bears 
+  FROM bears
   GROUP BY color
   ORDER BY color_occurrence DESC
   LIMIT 1;"
